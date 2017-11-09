@@ -1,0 +1,249 @@
+header {
+    padding: 50px 0 0 0;
+}
+
+header .container-fluid {
+    padding-bottom: 25px;
+}
+header .container-fluid .row .bottom-border {
+    padding-bottom: 25px;
+    border-bottom: solid 5px #7d97ad;
+}
+
+.logo-container img {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 75px;
+}
+
+.title-container {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.title-container h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.title-container h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#content-container {
+    display: flex;
+}
+
+/* side bar styles */
+#side-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#side-bar ul li p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+
+.color-container {
+    margin: auto;
+    display: block;
+    height: 85px;
+    width: 75px;
+}
+
+#color-1 {
+    background-color: #02b3e4;
+}
+
+#color-2 {
+    background-color: #2d3c49;
+}
+
+#color-3 {
+    background-color: #7d97ad;
+}
+
+/* main content styles */
+#main {
+    padding: 0;
+    margin-top: 50px;
+}
+
+#banner-container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#banner-container img {
+    object-fit: cover;
+    object-position: center;
+    filter: blur(2px);
+}
+
+/* featured work styles */
+#featured-work-container {
+    margin-top: 25px;
+}
+
+#featured-work-container h1 {
+    color: #7d97ad;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.featured-work a {
+    color: black;
+}
+.featured-work a:hover {
+    text-decoration: none;
+    color: #1794AA;
+}
+
+.featured-work img {
+    display: block;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
+
+#featured-work-container .row .featured-work  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.featured-work p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+
+    header .container-fluid .row .bottom-border {
+        padding-bottom: 25px;
+        border-bottom: none;
+        text-align: center;
+    }
+    
+    .title-container h1 {
+        text-align: center !important;
+        font-size: 2.5rem;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+    
+    .title-container h4 {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    
+    .logo-container img {
+        display: inline-block;
+        vertical-align: middle;
+        max-height: 100%;
+        max-width: 75px;
+    }
+    
+    /* side bar styles */
+    #side-bar ul {
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #side-bar ul li {
+        margin: 0 20px;
+        display: inline-block;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    header .container-fluid .row .bottom-border {
+        padding-bottom: 25px;
+        border-bottom: none
+    }
+
+    header {
+        padding: 50px 0 0 0;
+        margin: 0 25px;
+    }
+
+    .logo-container img {
+        display: inline-block;
+        vertical-align: middle;
+        max-height: 100%;
+        max-width: 50px;
+    }
+
+    .title-container h1 {
+        font-size: 1rem;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+
+    .title-container h4 {
+        font-size: 0.5rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+    .logo-container img {
+        display: inline-block;
+        vertical-align: middle;
+        max-height: 100%;
+        max-width: 75px;
+    }
+
+    /* side bar styles */
+    #side-bar ul {
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #side-bar ul li {
+        margin: 0 20px;
+        display: inline-block;
+    }
+
+    .color-container {
+        margin: auto;
+        display: block;
+        height: 65px;
+        width: 50px;
+    }
+
+    #side-bar ul li p {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+
+    .featured-work img {
+        display: block;
+        max-width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin: auto;
+    }
+}

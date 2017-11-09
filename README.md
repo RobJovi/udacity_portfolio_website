@@ -1,4 +1,4 @@
-# udacity Portfolio Website
+# Udacity Portfolio Website
 
 
 ## How To View Website
